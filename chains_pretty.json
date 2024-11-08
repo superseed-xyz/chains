@@ -5236,7 +5236,7 @@
   }],
   "parent": {
     "type": "L2",
-    "chain": "eip155-1",
+    "chain": "eip155-11155111",
     "bridges": [{
       "url": "https://bridge.zksync.io/"
     }]
@@ -11849,13 +11849,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Digital Smart Chain",
-  "chain": "Digital Smart Chain",
+  "name": "Datacore Smart Chain",
+  "chain": "Datacore Smart Chain",
   "icon": "dscscan",
   "rpc": ["https://rpc01.dscscan.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Digital Smart Chain",
+    "name": "Datacore Smart Chain",
     "symbol": "DSC",
     "decimals": 18
   },
@@ -11864,7 +11864,7 @@
   "chainId": 1555,
   "networkId": 1555,
   "explorers": [{
-    "name": "Digital Smart Chain",
+    "name": "Datacore Smart Chain",
     "url": "https://dscscan.io",
     "standard": "EIP3091"
   }]
@@ -23497,6 +23497,21 @@
   "networkId": 10001,
   "slip44": 1
 }, {
+  "name": "Warden Testnet",
+  "chain": "WARD",
+  "rpc": ["https://evm.chiado.wardenprotocol.org", "wss://evm-ws.chiado.wardenprotocol.org"],
+  "faucets": ["https://faucet.chiado.wardenprotocol.org"],
+  "nativeCurrency": {
+    "name": "WARD",
+    "symbol": "WARD",
+    "decimals": 18
+  },
+  "infoURL": "https://wardenprotocol.org",
+  "icon": "warden",
+  "shortName": "ward",
+  "chainId": 10010,
+  "networkId": 10010
+}, {
   "name": "Gon Chain",
   "chain": "GonChain",
   "icon": "gonchain",
@@ -30074,7 +30089,7 @@
   "icon": "linea",
   "parent": {
     "type": "L2",
-    "chain": "eip155-5",
+    "chain": "eip155-11155111",
     "bridges": [{
       "url": "https://bridge.linea.build/"
     }]
